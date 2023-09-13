@@ -31,9 +31,9 @@ module.exports = {
         "FiveUnits": "80px",
         "ThreeUnits": "48px",
         "OneAndHalfUnits": "24px",
-        "doubleunit": "2em",
         "SixUnits": "96px",
         "HalfUnit": "8px",
+        "doubleunit": "2em",
         "FourUnits": "64px"
       },
       "borderRadius": {
