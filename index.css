@@ -161,7 +161,7 @@
   display: flex;
   max-width: auto;
   align-self: center;
-  margin-top: 72px;
+  margin-top: 73px;
   align-items: center;
   padding-top: var(--dl-space-space-tripleunit);
   padding-left: var(--dl-space-space-unit);
@@ -170,7 +170,9 @@
   padding-bottom: var(--dl-space-space-tripleunit);
   background-size: cover;
   justify-content: center;
-  background-image: linear-gradient(135deg, rgba(255, 255, 255, 0.86) 29.00%,rgba(255, 255, 255, 0) 100.00%),url('https://dc0f88f8bc.imgdist.com/public/users/Integrators/BeeProAgency/1053979_1039156/editor_images/IMG20230508100651.jpg');
+  background-image: linear-gradient(135deg, rgba(255, 255, 255, 0.86) 29.00%,rgba(255, 255, 255, 0) 100.00%),url('https://2cdc80ace5.imgdist.com/public/users/Integrators/BeeProAgency/1011568_996439/editor_images/IMG20230508100651.jpg');
+  background-repeat: repeat,no-repeat;
+  background-position: top left,center;
 }
 .home-content-container {
   width: 100%;
@@ -610,11 +612,11 @@
   display: flex;
   max-width: 1000px;
   align-items: center;
-  padding-top: 48px;
+  padding-top: var(--dl-space-space-unit);
   padding-left: 48px;
   padding-right: 48px;
   flex-direction: column;
-  padding-bottom: var(--dl-space-space-halfunit);
+  padding-bottom: var(--dl-space-space-unit);
 }
 .home-text15 {
   color: rgb(206, 120, 9);
@@ -1119,10 +1121,13 @@
 .home-layanan-kami {
   width: 100%;
   display: flex;
-  padding: 48px;
   max-width: 1000px;
   align-items: center;
+  padding-top: var(--dl-space-space-unit);
+  padding-left: 48px;
+  padding-right: 48px;
   flex-direction: column;
+  padding-bottom: var(--dl-space-space-unit);
 }
 .home-text37 {
   color: rgb(206, 120, 9);
