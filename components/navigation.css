@@ -82,18 +82,16 @@
   width: 100%;
   display: flex;
   max-width: var(--dl-size-size-maxwidth);
-  overflow-x: hidden;
   align-items: center;
   padding-top: var(--dl-space-space-unit);
-  padding-left: var(--dl-space-space-oneandhalfunits);
-  padding-right: var(--dl-space-space-oneandhalfunits);
-  flex-direction: row;
+  padding-left: var(--dl-space-space-unit);
+  padding-right: var(--dl-space-space-unit);
   padding-bottom: var(--dl-space-space-unit);
   justify-content: space-between;
 }
 .navigation-image {
-  width: 93px;
-  height: 47px;
+  width: auto;
+  height: var(--dl-size-size-small);
 }
 .navigation-nav {
   flex: 0 0 auto;
