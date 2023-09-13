@@ -2,9 +2,6 @@ module.exports = {
   "theme": {
     "extend": {
       "colors": {
-        "primary": {
-          "100": "#370511ff"
-        },
         "Scheme": {
           "White80": "#ffffffcc",
           "LightBrown": "#f9f4f0ff",
@@ -16,10 +13,13 @@ module.exports = {
           "White": "#FFFFFF",
           "DarkGray": "#9095a7ff"
         },
+        "primary": {
+          "100": "#370511ff"
+        },
         "gray": {
           "900": "#D9D9D9",
-          "white": "#FFFFFF",
-          "black": "#000000"
+          "black": "#000000",
+          "white": "#FFFFFF"
         },
         "foreground": "#191919ff",
         "background": "#FFFFFF"
@@ -28,10 +28,10 @@ module.exports = {
         "Unit": "16px",
         "TwoUnits": "32px",
         "tripleunit": "3em",
-        "doubleunit": "2em",
         "FiveUnits": "80px",
         "ThreeUnits": "48px",
         "OneAndHalfUnits": "24px",
+        "doubleunit": "2em",
         "SixUnits": "96px",
         "HalfUnit": "8px",
         "FourUnits": "64px"
