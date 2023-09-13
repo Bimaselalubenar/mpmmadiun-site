@@ -2,39 +2,54 @@ module.exports = {
   "theme": {
     "extend": {
       "colors": {
-        "Gray": {
-          "500": "#595959",
-          "700": "#999999",
+        "primary": {
+          "100": "#370511ff"
+        },
+        "Scheme": {
+          "White80": "#ffffffcc",
+          "LightBrown": "#f9f4f0ff",
+          "Black": "#0f1722ff",
+          "LightBlue": "#162d5aff",
+          "Black80": "#191919cc",
+          "Brown": "#914332ff",
+          "DarkBlue": "#191919ff",
+          "White": "#FFFFFF",
+          "DarkGray": "#9095a7ff"
+        },
+        "gray": {
           "900": "#D9D9D9",
-          "Black": "#000000",
-          "White": "#FFFFFF"
+          "white": "#FFFFFF",
+          "black": "#000000"
         },
-        "Primary": {
-          "100": "#370511ff",
-          "500": "#643843ff",
-          "700": "#775860ff"
-        },
-        "foreground": "#000000",
+        "foreground": "#191919ff",
         "background": "#FFFFFF"
       },
       "spacing": {
-        "HalfUnit": "0.5em",
-        "Quadruple": "4em",
-        "DoubleUnit": "2em",
-        "Unit": "1em",
-        "TripleUnit": "3em"
+        "Unit": "16px",
+        "TwoUnits": "32px",
+        "tripleunit": "3em",
+        "doubleunit": "2em",
+        "FiveUnits": "80px",
+        "ThreeUnits": "48px",
+        "OneAndHalfUnits": "24px",
+        "SixUnits": "96px",
+        "HalfUnit": "8px",
+        "FourUnits": "64px"
       },
       "borderRadius": {
-        "Radius 4": "4px",
-        "Radius 2": "2px",
+        "Radius4": "4px",
         "Round": "50%",
-        "Radius 8": "8px"
+        "Radius8": "8px",
+        "Radius2": "2px"
       },
       "scale": {
-        "DoubleUnit": "2rem",
-        "Unit": "1rem",
-        "TripleUnit": "3rem",
-        "HalfUnit": "0.5rem"
+        "XXLarge": "288px",
+        "Small": "48px",
+        "MaxWidth": "988px",
+        "Medium": "96px",
+        "Large": "144px",
+        "XLarge": "192px",
+        "XSmall": "16px"
       }
     }
   },
