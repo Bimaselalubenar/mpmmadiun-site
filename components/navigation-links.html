@@ -48,29 +48,35 @@
       href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital,wght@0,400;1,400&amp;display=swap"
       data-tag="font"
     />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&amp;display=swap"
+      data-tag="font"
+    />
     <style>
       .services-card:hover > div{
       background-color: #fff
       }
     </style>
-    <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
+    <link rel="stylesheet" href="../style.css" />
     <div>
       <link href="./navigation-links.css" rel="stylesheet" />
       <nav class="navigation-links-nav">
-        <span class="navigation-links-text Navigation-Link">
-          <span>Home</span>
-        </span>
-        <span class="navigation-links-text1 Navigation-Link">
-          <span>About</span>
-        </span>
-        <span class="navigation-links-text2 Navigation-Link">
-          <span>Portofolio</span>
-        </span>
-        <span class="navigation-links-text3 Navigation-Link">
-          <span>Blog</span>
-        </span>
+        <a href="index.html" class="navigation-links-navlink">
+          <span>Profil</span>
+        </a>
+        <a href="**" class="navigation-links-navlink1"><span>Tentang</span></a>
+        <a href="**" class="navigation-links-navlink2">
+          <span>Penjualan</span>
+        </a>
+        <a href="**" class="navigation-links-navlink3">
+          <span>Bengkel AHASS</span>
+        </a>
+        <a href="**" class="navigation-links-navlink4">
+          <span>Simulasi Kredit</span>
+        </a>
       </nav>
     </div>
     <script src="https://unpkg.com/@teleporthq/teleport-custom-scripts"></script>
@@ -160,6 +166,14 @@
 
         runAllScripts();
       };
+    </script>
+    <script>
+      let url = window.location.search;
+      let urlParam = new URLSearchParams(url);
+
+      let namaKonsumen = urlParam.get('nama_konsumen') || 'Sobat Honda';
+
+      document.getElementById('nama_konsumen').innerHTML = namaKonsumen;
     </script>
   </body>
 </html>
