@@ -1016,48 +1016,11 @@
   }
 }
 
-.eror-container {
+.simulasi-kredit-container {
   width: 100%;
   display: flex;
   overflow: auto;
   min-height: 100vh;
   align-items: center;
   flex-direction: column;
-}
-.eror-text {
-  color: rgb(206, 120, 9);
-  font-size: 30px;
-  margin-top: var(--dl-space-space-twounits);
-  font-family: Poppins;
-}
-.eror-text3 {
-  color: rgb(206, 120, 9);
-  font-size: 16px;
-  font-style: normal;
-  margin-top: var(--dl-space-space-halfunit);
-  font-family: Poppins;
-  font-weight: 500;
-  margin-bottom: var(--dl-space-space-twounits);
-}
-@media(max-width: 767px) {
-  .eror-text {
-    font-size: 2.5rem;
-  }
-  .eror-text3 {
-    font-size: 16px;
-  }
-}
-@media(max-width: 479px) {
-  .eror-text {
-    font-size: 2rem;
-    text-align: center;
-    font-family: Poppins;
-  }
-  .eror-text3 {
-    font-size: 16px;
-    font-style: normal;
-    text-align: center;
-    font-family: Poppins;
-    font-weight: 500;
-  }
 }

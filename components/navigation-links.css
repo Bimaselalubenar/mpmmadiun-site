@@ -50,6 +50,18 @@
 }
 .navigation-links-navlink4 {
   cursor: pointer;
+  display: none;
+  font-size: 12px;
+  transition: 0.3s;
+  font-family: Poppins;
+  font-weight: 500;
+  line-height: 1.6;
+  margin-right: 41px;
+  text-transform: capitalize;
+  text-decoration: none;
+}
+.navigation-links-navlink5 {
+  cursor: pointer;
   font-size: 12px;
   transition: 0.3s;
   font-family: Poppins;
@@ -79,6 +91,9 @@
     align-items: flex-start;
     flex-direction: column;
   }
+  .navigation-links-navlink4 {
+    display: flex;
+  }
   .navigation-links-root-class-name9 {
     margin-bottom: var(--dl-space-space-unit);
   }
@@ -97,6 +112,9 @@
     margin-right: 41px;
   }
   .navigation-links-navlink4 {
+    margin-right: 41px;
+  }
+  .navigation-links-navlink5 {
     margin-right: 41px;
   }
   .navigation-links-root-class-name9 {

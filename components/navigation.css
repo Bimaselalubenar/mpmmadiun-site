@@ -50,6 +50,18 @@
 }
 .navigation-links-navlink4 {
   cursor: pointer;
+  display: none;
+  font-size: 12px;
+  transition: 0.3s;
+  font-family: Poppins;
+  font-weight: 500;
+  line-height: 1.6;
+  margin-right: 41px;
+  text-transform: capitalize;
+  text-decoration: none;
+}
+.navigation-links-navlink5 {
+  cursor: pointer;
   font-size: 12px;
   transition: 0.3s;
   font-family: Poppins;
@@ -79,6 +91,9 @@
     align-items: flex-start;
     flex-direction: column;
   }
+  .navigation-links-navlink4 {
+    display: flex;
+  }
   .navigation-links-root-class-name9 {
     margin-bottom: var(--dl-space-space-unit);
   }
@@ -97,6 +112,9 @@
     margin-right: 41px;
   }
   .navigation-links-navlink4 {
+    margin-right: 41px;
+  }
+  .navigation-links-navlink5 {
     margin-right: 41px;
   }
   .navigation-links-root-class-name9 {
@@ -128,9 +146,13 @@
   padding-bottom: var(--dl-space-space-unit);
   justify-content: space-between;
 }
+.navigation-navlink {
+  display: contents;
+}
 .navigation-image {
   width: 104px;
   height: 54px;
+  text-decoration: none;
 }
 .navigation-nav {
   flex: 0 0 auto;
@@ -145,6 +167,7 @@
   font-family: Poppins;
   font-weight: 600;
   border-radius: var(--dl-radius-radius-radius8);
+  text-decoration: none;
   background-color: rgb(206, 120, 9);
 }
 .navigation-burger-menu {
@@ -209,6 +232,7 @@
 .navigation-root-class-name {
   flex: 0;
 }
+
 @media(max-width: 991px) {
   .navigation-nav {
     display: none;
