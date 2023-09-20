@@ -233,6 +233,9 @@
   flex: 0;
 }
 
+.navigation-root-class-name2 {
+  flex: 0;
+}
 @media(max-width: 991px) {
   .navigation-nav {
     display: none;
