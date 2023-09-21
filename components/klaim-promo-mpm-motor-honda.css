@@ -1,4 +1,4 @@
-.cek-simulasi-kredit-cek-simulasi-kredit {
+.klaim-promo-mpm-motor-honda-cek-simulasi-kredit {
   width: 100%;
   height: auto;
   display: flex;
@@ -12,7 +12,7 @@
   justify-content: center;
   background-color: #efefef;
 }
-.cek-simulasi-kredit-container {
+.klaim-promo-mpm-motor-honda-container {
   flex: 1;
   width: 100%;
   height: auto;
@@ -21,7 +21,7 @@
   margin-bottom: var(--dl-space-space-unit);
   flex-direction: column;
 }
-.cek-simulasi-kredit-container1 {
+.klaim-promo-mpm-motor-honda-container1 {
   width: 100%;
   display: flex;
   align-self: center;
@@ -29,7 +29,7 @@
   flex-direction: row;
   justify-content: center;
 }
-.cek-simulasi-kredit-text {
+.klaim-promo-mpm-motor-honda-text {
   color: rgb(206, 120, 9);
   font-size: 16px;
   font-style: normal;
@@ -38,7 +38,7 @@
   font-weight: 600;
   margin-bottom: 3px;
 }
-.cek-simulasi-kredit-text1 {
+.klaim-promo-mpm-motor-honda-text1 {
   color: rgb(206, 120, 9);
   font-size: 16px;
   font-style: normal;
@@ -47,7 +47,7 @@
   font-weight: 600;
   margin-bottom: 3px;
 }
-.cek-simulasi-kredit-text2 {
+.klaim-promo-mpm-motor-honda-text2 {
   color: rgb(206, 120, 9);
   font-size: 20px;
   align-self: center;
@@ -57,20 +57,20 @@
   font-weight: 600;
   margin-bottom: 3px;
 }
-.cek-simulasi-kredit-text3 {
+.klaim-promo-mpm-motor-honda-text3 {
   font-size: 14px;
   align-self: center;
   font-style: normal;
   font-weight: 400;
 }
-.cek-simulasi-kredit-container2 {
+.klaim-promo-mpm-motor-honda-container2 {
   width: 100%;
   display: flex;
   align-items: center;
   flex-direction: row;
   justify-content: flex-end;
 }
-.cek-simulasi-kredit-form {
+.klaim-promo-mpm-motor-honda-form {
   width: 100%;
   cursor: pointer;
   height: auto;
@@ -79,14 +79,14 @@
   flex-direction: column;
   justify-content: center;
 }
-.cek-simulasi-kredit-container3 {
+.klaim-promo-mpm-motor-honda-container3 {
   width: 100%;
   display: flex;
   align-items: center;
   margin-bottom: 2px;
   justify-content: space-between;
 }
-.cek-simulasi-kredit-textinput {
+.klaim-promo-mpm-motor-honda-textinput {
   color: var(--dl-color-gray-black);
   width: 100%;
   cursor: pointer;
@@ -96,10 +96,10 @@
   transition: 0.3s;
   border-radius: var(--dl-radius-radius-radius8);
 }
-.cek-simulasi-kredit-textinput:hover {
+.klaim-promo-mpm-motor-honda-textinput:hover {
   transform: scale(102%);
 }
-.cek-simulasi-kredit-textinput1 {
+.klaim-promo-mpm-motor-honda-textinput1 {
   color: var(--dl-color-gray-black);
   width: 100%;
   cursor: pointer;
@@ -109,10 +109,10 @@
   transition: 0.3s;
   border-radius: var(--dl-radius-radius-radius8);
 }
-.cek-simulasi-kredit-textinput1:hover {
+.klaim-promo-mpm-motor-honda-textinput1:hover {
   transform: scale(102%);
 }
-.cek-simulasi-kredit-container4 {
+.klaim-promo-mpm-motor-honda-container4 {
   width: 100%;
   display: flex;
   align-items: flex-start;
@@ -120,7 +120,7 @@
   flex-direction: row;
   justify-content: center;
 }
-.cek-simulasi-kredit-select {
+.klaim-promo-mpm-motor-honda-select {
   color: var(--dl-color-gray-black);
   width: 100%;
   cursor: pointer;
@@ -132,10 +132,10 @@
   padding-right: 0.5em;
   background-color: var(--dl-color-gray-white);
 }
-.cek-simulasi-kredit-select:hover {
+.klaim-promo-mpm-motor-honda-select:hover {
   transform: scale(102%);
 }
-.cek-simulasi-kredit-select1 {
+.klaim-promo-mpm-motor-honda-select1 {
   color: var(--dl-color-gray-black);
   width: 100%;
   cursor: pointer;
@@ -146,10 +146,10 @@
   border-radius: var(--dl-radius-radius-radius8);
   background-color: var(--dl-color-gray-white);
 }
-.cek-simulasi-kredit-select1:hover {
+.klaim-promo-mpm-motor-honda-select1:hover {
   transform: scale(102%);
 }
-.cek-simulasi-kredit-container5 {
+.klaim-promo-mpm-motor-honda-container5 {
   flex: 0 0 auto;
   width: auto;
   height: auto;
@@ -161,11 +161,11 @@
   margin-bottom: var(--dl-space-space-unit);
   justify-content: flex-start;
 }
-.cek-simulasi-kredit-text4 {
+.klaim-promo-mpm-motor-honda-text4 {
   font-size: 12px;
   margin-left: var(--dl-space-space-halfunit);
 }
-.cek-simulasi-kredit-button {
+.klaim-promo-mpm-motor-honda-button {
   color: var(--dl-color-gray-white);
   width: 100%;
   cursor: pointer;
@@ -176,98 +176,97 @@
   border-radius: var(--dl-radius-radius-radius8);
   background-color: #049200;
 }
-.cek-simulasi-kredit-button:hover {
+.klaim-promo-mpm-motor-honda-button:hover {
   transform: scale(102%);
 }
-.cek-simulasi-kredit-text6:hover {
+.klaim-promo-mpm-motor-honda-text6:hover {
   transform: scale(102%);
 }
-
 
 @media(max-width: 991px) {
-  .cek-simulasi-kredit-cek-simulasi-kredit {
+  .klaim-promo-mpm-motor-honda-cek-simulasi-kredit {
     align-items: center;
     flex-direction: column;
   }
-  .cek-simulasi-kredit-container {
+  .klaim-promo-mpm-motor-honda-container {
     align-items: center;
   }
-  .cek-simulasi-kredit-container1 {
+  .klaim-promo-mpm-motor-honda-container1 {
     align-self: center;
     justify-content: center;
   }
-  .cek-simulasi-kredit-text1 {
+  .klaim-promo-mpm-motor-honda-text1 {
     text-align: center;
   }
-  .cek-simulasi-kredit-text2 {
+  .klaim-promo-mpm-motor-honda-text2 {
     align-self: center;
     text-align: center;
   }
-  .cek-simulasi-kredit-text3 {
+  .klaim-promo-mpm-motor-honda-text3 {
     align-self: center;
     text-align: center;
   }
-  .cek-simulasi-kredit-container2 {
+  .klaim-promo-mpm-motor-honda-container2 {
     width: 100%;
   }
 }
 @media(max-width: 767px) {
-  .cek-simulasi-kredit-cek-simulasi-kredit {
+  .klaim-promo-mpm-motor-honda-cek-simulasi-kredit {
     width: 100%;
     padding-left: 32px;
     padding-right: 32px;
   }
-  .cek-simulasi-kredit-container1 {
+  .klaim-promo-mpm-motor-honda-container1 {
     justify-content: center;
   }
-  .cek-simulasi-kredit-text {
+  .klaim-promo-mpm-motor-honda-text {
     font-size: 16px;
     text-align: center;
     margin-right: 0px;
   }
-  .cek-simulasi-kredit-text1 {
+  .klaim-promo-mpm-motor-honda-text1 {
     font-size: 16px;
     text-align: center;
     margin-right: 0px;
   }
-  .cek-simulasi-kredit-text2 {
+  .klaim-promo-mpm-motor-honda-text2 {
     font-size: 20px;
     align-self: center;
     text-align: center;
     margin-right: 0px;
   }
-  .cek-simulasi-kredit-text3 {
+  .klaim-promo-mpm-motor-honda-text3 {
     align-self: center;
   }
-  .cek-simulasi-kredit-container2 {
+  .klaim-promo-mpm-motor-honda-container2 {
     flex-direction: column;
   }
 }
 @media(max-width: 479px) {
-  .cek-simulasi-kredit-cek-simulasi-kredit {
+  .klaim-promo-mpm-motor-honda-cek-simulasi-kredit {
     padding-top: 32px;
     padding-left: var(--dl-space-space-unit);
     padding-right: var(--dl-space-space-unit);
     padding-bottom: 32px;
     background-color: #e6e6e6;
   }
-  .cek-simulasi-kredit-container1 {
+  .klaim-promo-mpm-motor-honda-container1 {
     justify-content: center;
   }
-  .cek-simulasi-kredit-text {
+  .klaim-promo-mpm-motor-honda-text {
     font-size: 16px;
     text-align: center;
   }
-  .cek-simulasi-kredit-text1 {
+  .klaim-promo-mpm-motor-honda-text1 {
     font-size: 16px;
     text-align: center;
   }
-  .cek-simulasi-kredit-text2 {
+  .klaim-promo-mpm-motor-honda-text2 {
     font-size: 20px;
     align-self: center;
     text-align: center;
   }
-  .cek-simulasi-kredit-text3 {
+  .klaim-promo-mpm-motor-honda-text3 {
     font-size: 14px;
     align-self: center;
   }

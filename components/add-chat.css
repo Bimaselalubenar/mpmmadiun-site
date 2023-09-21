@@ -5,7 +5,7 @@
   display: flex;
   z-index: 100;
   position: fixed;
-  box-shadow: 5px 5px 10px 0px rgba(97, 97, 97, 0.7);
+  box-shadow: 5px 5px 10px 0px rgba(97, 97, 97, 0.34);
   align-items: flex-start;
   padding-left: 0px;
   border-radius: var(--dl-radius-radius-radius8);
@@ -102,6 +102,7 @@
   width: 30px;
   height: 30px;
   margin: 5px;
+  align-self: center;
   object-fit: cover;
   margin-right: 5px;
 }

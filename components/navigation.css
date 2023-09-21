@@ -131,6 +131,7 @@
   display: flex;
   z-index: 2;
   position: fixed;
+  box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.11);
   align-items: center;
   justify-content: center;
   background-color: var(--dl-color-scheme-white);

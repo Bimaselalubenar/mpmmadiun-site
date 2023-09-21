@@ -131,6 +131,7 @@
   display: flex;
   z-index: 2;
   position: fixed;
+  box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.11);
   align-items: center;
   justify-content: center;
   background-color: var(--dl-color-scheme-white);
@@ -1271,7 +1272,7 @@
   display: flex;
   z-index: 100;
   position: fixed;
-  box-shadow: 5px 5px 10px 0px rgba(97, 97, 97, 0.7);
+  box-shadow: 5px 5px 10px 0px rgba(97, 97, 97, 0.34);
   align-items: flex-start;
   padding-left: 0px;
   border-radius: var(--dl-radius-radius-radius8);
@@ -1368,6 +1369,7 @@
   width: 30px;
   height: 30px;
   margin: 5px;
+  align-self: center;
   object-fit: cover;
   margin-right: 5px;
 }
@@ -1503,20 +1505,20 @@
 }
 .app-component-container1 {
   width: 100%;
-  height: 21px;
+  height: 31px;
   display: flex;
   max-width: 1000px;
   overflow-y: hidden;
-  transition: 0.3s;
+  transition: 0.6s;
   align-items: flex-start;
   flex-direction: column;
 }
 .app-component-container1:hover {
-  height: 137px;
+  height: 152px;
 }
 .app-component-pc {
   width: auto;
-  height: 100px;
+  height: auto;
   display: flex;
   max-width: 1000px;
   align-self: center;
@@ -1525,18 +1527,27 @@
   justify-content: flex-start;
 }
 .app-component-container2 {
-  width: 115px;
-  height: 30px;
+  width: auto;
+  height: 42px;
   display: flex;
   align-items: center;
+  padding-left: var(--dl-space-space-unit);
   border-radius: var(--dl-radius-radius-radius8);
-  flex-direction: column;
+  padding-right: var(--dl-space-space-unit);
+  flex-direction: row;
   justify-content: center;
   background-color: #ce7809;
   border-top-left-radius: var(--dl-radius-radius-radius8);
   border-top-right-radius: var(--dl-radius-radius-radius8);
   border-bottom-left-radius: 0px;
   border-bottom-right-radius: 0px;
+}
+.app-component-text {
+  color: #ffffff;
+  font-size: 12px;
+  font-style: normal;
+  font-family: Poppins;
+  font-weight: 500;
 }
 .app-component-icon {
   fill: var(--dl-color-gray-white);
@@ -1545,7 +1556,7 @@
 }
 .app-component-container3 {
   width: 100%;
-  height: auto;
+  height: 100%;
   display: flex;
   align-items: center;
   padding-top: var(--dl-space-space-unit);
@@ -1684,16 +1695,22 @@
 
 
 @media(max-width: 479px) {
+  .app-component-container1 {
+    height: 40px;
+  }
   .app-component-pc {
-    height: 100%;
+    height: auto;
     z-index: 100;
     justify-content: flex-start;
   }
   .app-component-container2 {
-    height: 30px;
+    height: 43px;
     align-items: center;
     justify-content: center;
     background-color: #ce7809;
+  }
+  .app-component-text {
+    font-size: 12px;
   }
   .app-component-icon {
     fill: var(--dl-color-scheme-white);
