@@ -260,26 +260,6 @@
   font-weight: 400;
   border-radius: var(--dl-radius-radius-radius8);
 }
-.layanan-ahass-link3 {
-  color: var(--dl-color-scheme-darkblue);
-  cursor: pointer;
-  padding: var(--dl-space-space-halfunit);
-  font-size: 12px;
-  font-style: normal;
-  margin-top: var(--dl-space-space-unit);
-  transition: 0.3s;
-  font-family: Poppins;
-  font-weight: 400;
-  border-color: rgb(206, 120, 9);
-  border-width: 1.2px;
-  border-radius: var(--dl-radius-radius-radius8);
-  text-decoration: none;
-}
-.layanan-ahass-link3:hover {
-  color: var(--dl-color-scheme-white);
-  transform: scale(103%);
-  background-color: rgb(206, 120, 9);
-}
 
 @media(max-width: 991px) {
   .layanan-ahass-text1 {
