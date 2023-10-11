@@ -1,4 +1,4 @@
-.component-container {
+.app-component-container {
   width: 100%;
   bottom: 0;
   height: auto;
@@ -9,7 +9,7 @@
   flex-direction: column;
   justify-content: flex-start;
 }
-.component-container1 {
+.app-component-container1 {
   width: 100%;
   height: 31px;
   display: flex;
@@ -19,10 +19,10 @@
   align-items: flex-start;
   flex-direction: column;
 }
-.component-container1:hover {
+.app-component-container1:hover {
   height: 152px;
 }
-.component-pc {
+.app-component-pc {
   width: auto;
   height: auto;
   display: flex;
@@ -32,7 +32,7 @@
   flex-direction: column;
   justify-content: flex-start;
 }
-.component-container2 {
+.app-component-container2 {
   width: auto;
   height: 42px;
   display: flex;
@@ -48,19 +48,19 @@
   border-bottom-left-radius: 0px;
   border-bottom-right-radius: 0px;
 }
-.component-text {
+.app-component-text {
   color: #ffffff;
   font-size: 12px;
   font-style: normal;
   font-family: Poppins;
   font-weight: 500;
 }
-.component-icon {
+.app-component-icon {
   fill: var(--dl-color-gray-white);
   width: 24px;
   height: 24px;
 }
-.component-container3 {
+.app-component-container3 {
   width: 100%;
   height: 100%;
   display: flex;
@@ -78,7 +78,7 @@
   border-bottom-left-radius: 0px;
   border-bottom-right-radius: 0px;
 }
-.component-container4 {
+.app-component-container4 {
   flex: 0 0 auto;
   width: 493px;
   height: auto;
@@ -88,7 +88,7 @@
   align-items: flex-start;
   justify-content: center;
 }
-.component-navlink {
+.app-component-navlink {
   color: #ffffff;
   cursor: pointer;
   margin: 4px;
@@ -103,14 +103,14 @@
   border-radius: var(--dl-radius-radius-radius8);
   text-decoration: none;
 }
-.component-navlink:hover {
+.app-component-navlink:hover {
   color: #eaff00;
   transform: scale(103%);
   box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.35);
   border-color: #eaff00;
   background-color: rgb(206, 120, 9);
 }
-.component-link {
+.app-component-link {
   color: #ffffff;
   cursor: pointer;
   margin: 4px;
@@ -125,14 +125,14 @@
   border-radius: var(--dl-radius-radius-radius8);
   text-decoration: none;
 }
-.component-link:hover {
+.app-component-link:hover {
   color: #eaff00;
   transform: scale(103%);
   box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.35);
   border-color: #eaff00;
   background-color: rgb(206, 120, 9);
 }
-.component-link1 {
+.app-component-link1 {
   color: #ffffff;
   cursor: pointer;
   margin: 4px;
@@ -147,14 +147,14 @@
   border-radius: var(--dl-radius-radius-radius8);
   text-decoration: none;
 }
-.component-link1:hover {
+.app-component-link1:hover {
   color: #eaff00;
   transform: scale(103%);
   box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.35);
   border-color: #eaff00;
   background-color: rgb(206, 120, 9);
 }
-.component-link2 {
+.app-component-link2 {
   color: #ffffff;
   cursor: pointer;
   margin: 4px;
@@ -169,14 +169,14 @@
   border-radius: var(--dl-radius-radius-radius8);
   text-decoration: none;
 }
-.component-link2:hover {
+.app-component-link2:hover {
   color: #eaff00;
   transform: scale(103%);
   box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.35);
   border-color: #eaff00;
   background-color: rgb(206, 120, 9);
 }
-.component-link3 {
+.app-component-link3 {
   color: #ffffff;
   cursor: pointer;
   margin: 4px;
@@ -191,7 +191,7 @@
   border-radius: var(--dl-radius-radius-radius8);
   text-decoration: none;
 }
-.component-link3:hover {
+.app-component-link3:hover {
   color: #eaff00;
   transform: scale(103%);
   box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.35);
@@ -201,52 +201,52 @@
 
 
 @media(max-width: 479px) {
-  .component-container1 {
+  .app-component-container1 {
     height: 40px;
   }
-  .component-pc {
+  .app-component-pc {
     height: auto;
     z-index: 100;
     justify-content: flex-start;
   }
-  .component-container2 {
+  .app-component-container2 {
     height: 43px;
     align-items: center;
     justify-content: center;
     background-color: #ce7809;
   }
-  .component-text {
+  .app-component-text {
     font-size: 12px;
   }
-  .component-icon {
+  .app-component-icon {
     fill: var(--dl-color-scheme-white);
   }
-  .component-container3 {
+  .app-component-container3 {
     height: auto;
     flex-wrap: wrap;
     justify-content: center;
   }
-  .component-container4 {
+  .app-component-container4 {
     width: 100%;
     height: auto;
   }
-  .component-navlink {
+  .app-component-navlink {
     height: auto;
     font-size: 10px;
   }
-  .component-link {
+  .app-component-link {
     height: auto;
     font-size: 10px;
   }
-  .component-link1 {
+  .app-component-link1 {
     height: auto;
     font-size: 10px;
   }
-  .component-link2 {
+  .app-component-link2 {
     height: auto;
     font-size: 10px;
   }
-  .component-link3 {
+  .app-component-link3 {
     height: auto;
     font-size: 10px;
   }
